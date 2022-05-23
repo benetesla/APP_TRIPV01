@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "app-pousada",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
