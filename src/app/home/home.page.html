@@ -132,26 +132,24 @@
     <ion-button expand="block" (click)="goToMap()">
         <ion-icon name="navigate"></ion-icon>
         Go to map</ion-button>
+
+
+
+
+
 </ion-content>
 <ion-footer>
     <ion-toolbar>
-        <ion-title>
-            <ion-text color="primary">
-                <!--logo direitos autorais-->
-                <h1>
-                    <a href="#" style="color: aqua; ">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                    <a href="#" style="color: aqua;">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
-
-                    <a href="#" style="color: aqua;" padding="5px">
-                        <ion-icon name="logo-whatsapp"></ion-icon>
-                    </a>
-                </h1>
+        <!--Home Page-->
+        <ion-button (click)="goToHome()">
+            <ion-icon name="home"></ion-icon>
+            Home</ion-button>
+        <!--join to social medias-->
+        <ion-button (click)="goToJoin()">
+            <ion-icon name="share-social-outline"></ion-icon>
+            Share
+        </ion-button>
+        <!--logo-->
 
 
-            </ion-text>
-        </ion-title>
     </ion-toolbar>
